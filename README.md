@@ -18,6 +18,16 @@ public/                  semua yang di-deploy
   vendor/three@0.160.0/  Three.js r160 yang di-host sendiri (lisensi MIT)
 ```
 
+## Aset biner di repo ini
+
+Berkas PNG (ikon di `public/icons/` dan `public/og-image.png`) tidak disimpan sebagai biner di repo ini, melainkan base64 di folder `assets-src/` — jalur unggah yang dipakai untuk mengisi repo hanya menerima berkas teks. Setelah mengkloning, kembalikan berkas aslinya sekali dengan:
+
+```bash
+node scripts/restore-assets.mjs
+```
+
+Situs yang live menyajikan berkas PNG asli; penyimpanan base64 ini hanya soal repo.
+
 ## Coba di komputer sendiri
 
 Jalankan salah satu perintah ini dari folder repository:
