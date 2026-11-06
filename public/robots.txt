@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ular-tangga.dafenka.com/sitemap.xml
